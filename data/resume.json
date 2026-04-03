@@ -1,0 +1,120 @@
+{
+  "header": {
+    "name": "耀天",
+    "nameEn": "Alex",
+    "title": "前端开发工程师",
+    "titleEn": "Frontend Developer",
+    "email": "alex@example.com",
+    "phone": "+86 138-0000-0000",
+    "location": "上海，中国",
+    "github": "github.com/alex",
+    "linkedin": "linkedin.com/in/alex"
+  },
+  "about": {
+    "zh": "热爱前端开发的工程师，拥有 5 年以上 Web 开发经验。专注于构建高性能、可维护的用户界面，熟悉现代前端技术栈，具备良好的团队协作能力和问题解决能力。",
+    "en": "Passionate frontend developer with 5+ years of web development experience. Focused on building high-performance, maintainable user interfaces with modern frontend tech stacks."
+  },
+  "skills": [
+    {
+      "category": "前端框架",
+      "skills": [
+        { "name": "Vue 3", "level": 92 },
+        { "name": "React", "level": 80 },
+        { "name": "TypeScript", "level": 85 },
+        { "name": "JavaScript ES6+", "level": 95 }
+      ]
+    },
+    {
+      "category": "样式",
+      "skills": [
+        { "name": "Tailwind CSS", "level": 90 },
+        { "name": "SCSS/SASS", "level": 82 },
+        { "name": "CSS3", "level": 88 },
+        { "name": "Element Plus", "level": 78 }
+      ]
+    },
+    {
+      "category": "工程化",
+      "skills": [
+        { "name": "Vite", "level": 88 },
+        { "name": "Webpack", "level": 75 },
+        { "name": "Git", "level": 90 },
+        { "name": "ESLint / Prettier", "level": 85 }
+      ]
+    },
+    {
+      "category": "其他",
+      "skills": [
+        { "name": "Node.js", "level": 72 },
+        { "name": "RESTful API", "level": 85 },
+        { "name": "Figma", "level": 70 },
+        { "name": "Agile / Scrum", "level": 80 }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "某科技有限公司 / Tech Co., Ltd.",
+      "role": "高级前端工程师 / Senior Frontend Developer",
+      "period": "2022.03 — 至今",
+      "location": "上海",
+      "points": [
+        "主导公司核心产品前端架构重构，将页面加载速度提升 40%",
+        "带领 3 人前端小组，推动组件库建设，复用率提升至 70%",
+        "与产品、设计、后端紧密协作，按时交付多个重点项目",
+        "Led frontend architecture refactor of core product, improving load speed by 40%",
+        "Managed a 3-person frontend team, built component library with 70% reuse rate"
+      ]
+    },
+    {
+      "company": "某互联网公司 / Internet Company",
+      "role": "前端开发工程师 / Frontend Developer",
+      "period": "2019.07 — 2022.02",
+      "location": "北京",
+      "points": [
+        "参与多个 B 端管理系统开发，使用 Vue 2/3 + Element UI",
+        "负责移动端 H5 页面开发，适配主流机型",
+        "Developed multiple B2B management systems using Vue 2/3 + Element UI",
+        "Built mobile H5 pages with cross-device compatibility"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "企业数据可视化平台",
+      "nameEn": "Enterprise Data Visualization Platform",
+      "tech": ["Vue 3", "ECharts", "TypeScript", "Tailwind CSS"],
+      "period": "2023.06 — 2023.12",
+      "desc": "负责前端整体架构设计与开发，实现多维度数据图表展示、实时数据推送及权限管理模块。",
+      "descEn": "Led frontend architecture design and development, implementing multi-dimensional data charts, real-time data push, and permission management modules.",
+      "link": "github.com/alex/data-viz"
+    },
+    {
+      "name": "移动端电商 H5",
+      "nameEn": "Mobile E-commerce H5",
+      "tech": ["Vue 3", "Vant", "Pinia", "Vite"],
+      "period": "2022.09 — 2023.02",
+      "desc": "独立开发移动端电商页面，包含商品列表、购物车、订单流程等核心功能，日活用户超 10 万。",
+      "descEn": "Independently developed mobile e-commerce pages including product listing, cart, and order flow. Reached 100k+ daily active users.",
+      "link": ""
+    },
+    {
+      "name": "低代码表单引擎",
+      "nameEn": "Low-code Form Engine",
+      "tech": ["Vue 3", "TypeScript", "JSON Schema"],
+      "period": "2022.03 — 2022.08",
+      "desc": "设计并实现基于 JSON Schema 的动态表单引擎，支持拖拽配置，减少重复开发工作量约 60%。",
+      "descEn": "Designed and implemented a JSON Schema-based dynamic form engine with drag-and-drop configuration, reducing repetitive development by ~60%.",
+      "link": "github.com/alex/form-engine"
+    }
+  ],
+  "education": [
+    {
+      "school": "某某大学 / XX University",
+      "degree": "计算机科学与技术 学士 / B.S. in Computer Science",
+      "period": "2015.09 — 2019.06",
+      "gpa": "3.8 / 4.0",
+      "honors": ["优秀毕业生 / Outstanding Graduate", "国家奖学金 / National Scholarship"]
+    }
+  ]
+}

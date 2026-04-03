@@ -1,0 +1,12 @@
+services:
+  resume-api:
+    build: .
+    container_name: resume-api
+    ports:
+      - "8080:8080"
+    volumes:
+      # 挂载 data 目录，修改 JSON 后重启容器即可生效，无需重新构建镜像
+      - ./data:/app/data
+    restart: unless-stopped
+    environment:
+      - PORT=8080
