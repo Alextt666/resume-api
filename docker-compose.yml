@@ -10,3 +10,9 @@ services:
     restart: unless-stopped
     environment:
       - PORT=8080
+    networks:
+      - nginx-net
+
+networks:
+  nginx-net:
+    external: true  # 使用 nginx 容器已创建的外部网络

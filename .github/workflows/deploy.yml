@@ -33,9 +33,14 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
+            # 确保网络存在
+            docker network create nginx-net 2>/dev/null || true
+            # 拉取最新镜像
             docker pull ${{ secrets.DOCKER_USERNAME }}/resume-api:latest
+            # 停止并删除旧容器
             docker stop resume-api || true
             docker rm resume-api || true
+            # 启动新容器
             docker run -d \
               --name resume-api \
               --network nginx-net \
