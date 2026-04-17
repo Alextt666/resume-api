@@ -1,120 +1,132 @@
 {
   "header": {
-    "name": "耀天",
-    "nameEn": "Alex",
-    "title": "前端开发工程师",
-    "titleEn": "Frontend Developer",
-    "email": "alex@example.com",
-    "phone": "+86 138-0000-0000",
-    "location": "上海，中国",
-    "github": "github.com/alex",
-    "linkedin": "linkedin.com/in/alex"
+    "name": "张耀天",
+    "nameEn": "Alex Zhang",
+    "title": "全栈 Agent 开发工程师",
+    "titleEn": "Full-Stack Agent Developer",
+    "email": "zhangyaotian0@gmail.com",
+    "phone": "18817539915",
+    "location": "上海",
+    "github": "github.com/alexzhang1030"
   },
   "about": {
-    "zh": "热爱前端开发的工程师，拥有 5 年以上 Web 开发经验。专注于构建高性能、可维护的用户界面，熟悉现代前端技术栈，具备良好的团队协作能力和问题解决能力。",
-    "en": "Passionate frontend developer with 5+ years of web development experience. Focused on building high-performance, maintainable user interfaces with modern frontend tech stacks."
+    "zh": "全栈 Agent 开发工程师，具备从前端到后端、从桌面应用到 AI 系统的完整研发能力。熟练掌握 Vue 3、Electron、Go 等技术栈，深度参与 AI 视频生成平台与智能 Agent 任务系统的设计与落地。热衷于将大模型能力融入实际产品，追求工程质量与用户体验的极致统一。",
+    "en": "Full-stack Agent developer with end-to-end capabilities spanning frontend, backend, desktop apps, and AI systems. Proficient in Vue 3, Electron, and Go. Deeply involved in designing and shipping AI video generation platforms and intelligent agent task systems. Passionate about integrating LLM capabilities into real products with a strong focus on engineering quality and user experience."
   },
   "skills": [
     {
-      "category": "前端框架",
+      "category": "Frontend · 前端",
       "skills": [
-        { "name": "Vue 3", "level": 92 },
-        { "name": "React", "level": 80 },
-        { "name": "TypeScript", "level": 85 },
-        { "name": "JavaScript ES6+", "level": 95 }
-      ]
-    },
-    {
-      "category": "样式",
-      "skills": [
+        { "name": "Vue 3 / Composition API", "level": 95 },
+        { "name": "TypeScript", "level": 88 },
         { "name": "Tailwind CSS", "level": 90 },
-        { "name": "SCSS/SASS", "level": 82 },
-        { "name": "CSS3", "level": 88 },
-        { "name": "Element Plus", "level": 78 }
+        { "name": "Vite / Webpack", "level": 85 },
+        { "name": "Pinia / Vuex", "level": 88 },
+        { "name": "Element Plus", "level": 85 }
       ]
     },
     {
-      "category": "工程化",
+      "category": "Desktop & Runtime · 桌面端",
       "skills": [
-        { "name": "Vite", "level": 88 },
-        { "name": "Webpack", "level": 75 },
-        { "name": "Git", "level": 90 },
-        { "name": "ESLint / Prettier", "level": 85 }
+        { "name": "Electron", "level": 85 },
+        { "name": "Node.js", "level": 82 },
+        { "name": "FFmpeg / fluent-ffmpeg", "level": 75 },
+        { "name": "better-sqlite3 / TypeORM", "level": 78 }
       ]
     },
     {
-      "category": "其他",
+      "category": "Backend · 后端",
       "skills": [
-        { "name": "Node.js", "level": 72 },
-        { "name": "RESTful API", "level": 85 },
-        { "name": "Figma", "level": 70 },
-        { "name": "Agile / Scrum", "level": 80 }
+        { "name": "Go / GoFrame v2", "level": 78 },
+        { "name": "MySQL / Redis", "level": 75 },
+        { "name": "RESTful API Design", "level": 85 },
+        { "name": "LMSTFY Task Queue", "level": 72 }
+      ]
+    },
+    {
+      "category": "AI & Agent · 智能系统",
+      "skills": [
+        { "name": "LLM Prompt Engineering", "level": 85 },
+        { "name": "Volcengine Ark (Doubao)", "level": 82 },
+        { "name": "Klingai / Seedream / Seedance", "level": 78 },
+        { "name": "AI Agent Task Orchestration", "level": 80 }
       ]
     }
   ],
   "experience": [
     {
-      "company": "某科技有限公司 / Tech Co., Ltd.",
-      "role": "高级前端工程师 / Senior Frontend Developer",
-      "period": "2022.03 — 至今",
+      "company": "火山引擎 · 字节跳动",
+      "companyEn": "Volcengine · ByteDance",
+      "role": "全栈 Agent 开发工程师",
+      "roleEn": "Full-Stack Agent Developer",
+      "period": "2024.03 — 至今",
       "location": "上海",
       "points": [
-        "主导公司核心产品前端架构重构，将页面加载速度提升 40%",
-        "带领 3 人前端小组，推动组件库建设，复用率提升至 70%",
-        "与产品、设计、后端紧密协作，按时交付多个重点项目",
-        "Led frontend architecture refactor of core product, improving load speed by 40%",
-        "Managed a 3-person frontend team, built component library with 70% reuse rate"
+        "主导 Magic-Cut（魔剪）桌面端视频编辑器核心功能研发，基于 Electron + Vue 3 + FFmpeg 构建多轨道时间线编辑系统，累计提交 592 次，覆盖 AI 识别、批量混剪、数字人替换等核心模块。",
+        "Led core feature development of Magic-Cut desktop video editor. Built multi-track timeline editing system with Electron + Vue 3 + FFmpeg. 592 commits covering AI recognition, batch mixing, and digital human replacement.",
+        "接入 Volcengine Ark（豆包大模型）实现 AI 视频亮点标记、AI 片头生成、提示词工程等功能，设计 AI 识别上报系统，支撑产品 AI 能力的数据闭环。",
+        "Integrated Volcengine Ark (Doubao LLM) for AI highlight detection, AI opening generation, and prompt engineering. Designed AI recognition reporting system to close the data loop for AI features.",
+        "参与 magic_task_backend（Go）后端研发，基于 GoFrame v2 构建 AI 图像/视频生成任务调度系统，对接 Klingai、Seedream、Seedance 等多模型 AI 驱动层，支持队列与轮询双模式异步任务处理。",
+        "Contributed to magic_task_backend (Go) — built AI image/video generation task scheduling system with GoFrame v2, integrating Klingai, Seedream, and Seedance via a pluggable AI driver abstraction with dual-mode async task processing.",
+        "负责扣费计费模块、限流方案、用户配额管理等后端基础能力建设，保障平台稳定性与商业化落地。",
+        "Built billing, rate limiting, and user quota management modules on the backend, ensuring platform stability and commercial readiness."
       ]
     },
     {
-      "company": "某互联网公司 / Internet Company",
-      "role": "前端开发工程师 / Frontend Developer",
-      "period": "2019.07 — 2022.02",
-      "location": "北京",
+      "company": "上海某互联网公司",
+      "companyEn": "Internet Company, Shanghai",
+      "role": "前端开发工程师",
+      "roleEn": "Frontend Developer",
+      "period": "2022.06 — 2024.02",
+      "location": "上海",
       "points": [
-        "参与多个 B 端管理系统开发，使用 Vue 2/3 + Element UI",
-        "负责移动端 H5 页面开发，适配主流机型",
-        "Developed multiple B2B management systems using Vue 2/3 + Element UI",
-        "Built mobile H5 pages with cross-device compatibility"
+        "负责多个 B 端管理系统与 C 端 Web 应用的前端研发，技术栈以 Vue 3 + TypeScript + Vite 为主。",
+        "Developed multiple B2B admin systems and C2C web apps using Vue 3 + TypeScript + Vite.",
+        "主导组件库建设与前端工程化规范制定，推动团队代码质量与研发效率提升。",
+        "Led component library development and frontend engineering standards, improving team code quality and delivery efficiency.",
+        "参与性能优化专项，通过代码分割、懒加载、SSR 等手段将核心页面 LCP 降低 40%。",
+        "Led performance optimization initiatives — reduced core page LCP by 40% via code splitting, lazy loading, and SSR."
       ]
     }
   ],
   "projects": [
     {
-      "name": "企业数据可视化平台",
-      "nameEn": "Enterprise Data Visualization Platform",
-      "tech": ["Vue 3", "ECharts", "TypeScript", "Tailwind CSS"],
-      "period": "2023.06 — 2023.12",
-      "desc": "负责前端整体架构设计与开发，实现多维度数据图表展示、实时数据推送及权限管理模块。",
-      "descEn": "Led frontend architecture design and development, implementing multi-dimensional data charts, real-time data push, and permission management modules.",
-      "link": "github.com/alex/data-viz"
-    },
-    {
-      "name": "移动端电商 H5",
-      "nameEn": "Mobile E-commerce H5",
-      "tech": ["Vue 3", "Vant", "Pinia", "Vite"],
-      "period": "2022.09 — 2023.02",
-      "desc": "独立开发移动端电商页面，包含商品列表、购物车、订单流程等核心功能，日活用户超 10 万。",
-      "descEn": "Independently developed mobile e-commerce pages including product listing, cart, and order flow. Reached 100k+ daily active users.",
+      "name": "魔剪 Magic-Cut",
+      "nameEn": "AI-Powered Desktop Video Editor",
+      "period": "2024.03 — 至今",
+      "desc": "基于 Electron + Vue 3 的桌面端智能视频编辑器，面向广告素材批量生产场景。集成豆包大模型实现 AI 亮点标记、AI 片头生成、数字人替换、场景识别、语音转字幕等功能。",
+      "descEn": "Electron + Vue 3 desktop video editor for ad material batch production. Integrates Doubao LLM for AI highlight detection, AI opening generation, digital human replacement, scene recognition, and speech-to-subtitle.",
+      "tech": ["Electron", "Vue 3", "TypeScript", "Pinia", "FFmpeg", "Volcengine Ark", "TypeORM", "SQLite", "Tailwind CSS"],
       "link": ""
     },
     {
-      "name": "低代码表单引擎",
-      "nameEn": "Low-code Form Engine",
-      "tech": ["Vue 3", "TypeScript", "JSON Schema"],
-      "period": "2022.03 — 2022.08",
-      "desc": "设计并实现基于 JSON Schema 的动态表单引擎，支持拖拽配置，减少重复开发工作量约 60%。",
-      "descEn": "Designed and implemented a JSON Schema-based dynamic form engine with drag-and-drop configuration, reducing repetitive development by ~60%.",
-      "link": "github.com/alex/form-engine"
+      "name": "Magic Task Backend",
+      "nameEn": "AI Generation Task Scheduling Service",
+      "period": "2024.06 — 至今",
+      "desc": "基于 Go + GoFrame v2 的 AI 内容生成任务调度后端，支持图像与视频多模型异步生成。设计可插拔 AI 驱动层，对接 Klingai、Seedream、Seedance 等主流 AI 生成模型。",
+      "descEn": "Go + GoFrame v2 backend for AI content generation task scheduling. Supports async image/video generation across multiple models via a pluggable AI driver layer integrating Klingai, Seedream, and Seedance.",
+      "tech": ["Go", "GoFrame v2", "MySQL", "Redis", "LMSTFY", "Klingai", "Seedream", "Seedance", "Volcengine TOS", "Nacos"],
+      "link": ""
+    },
+    {
+      "name": "个人简历网站",
+      "nameEn": "Personal Resume Website",
+      "period": "2026.04",
+      "desc": "基于 Vue 3 + Vite + Tailwind CSS 4 构建的静态简历网站，支持 Light/Dark 主题切换，响应式布局，PlayStation 风格设计系统。",
+      "descEn": "Static resume site built with Vue 3 + Vite + Tailwind CSS 4. Features light/dark theme toggle, responsive layout, and a PlayStation-inspired design system.",
+      "tech": ["Vue 3", "Vite", "Tailwind CSS 4", "JavaScript"],
+      "link": "github.com/alexzhang1030"
     }
   ],
   "education": [
     {
-      "school": "某某大学 / XX University",
-      "degree": "计算机科学与技术 学士 / B.S. in Computer Science",
-      "period": "2015.09 — 2019.06",
-      "gpa": "3.8 / 4.0",
-      "honors": ["优秀毕业生 / Outstanding Graduate", "国家奖学金 / National Scholarship"]
+      "school": "上海工程技术大学",
+      "schoolEn": "Shanghai University of Engineering Science",
+      "degree": "工学学士 · 计算机科学与技术",
+      "degreeEn": "Bachelor of Engineering · Computer Science & Technology",
+      "period": "2018.09 — 2022.06",
+      "gpa": "3.6 / 4.0",
+      "honors": ["优秀毕业生", "校级奖学金", "ACM 校队成员"]
     }
   ]
 }
